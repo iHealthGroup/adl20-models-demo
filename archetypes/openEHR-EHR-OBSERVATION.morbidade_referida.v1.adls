@@ -15,6 +15,11 @@ language
 
 description
     lifecycle_state = <"unmanaged">
+    original_author = <
+        ["organization"] = <"Grupo iHealth">
+        ["name"] = <"Grupo iHealth">
+        ["email"] = <"contato@ihealthgroup.com.br">
+    >
     copyright = <"">
     details = <
         ["pt-br"] = <
