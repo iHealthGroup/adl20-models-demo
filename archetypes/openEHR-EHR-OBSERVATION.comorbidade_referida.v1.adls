@@ -3,6 +3,15 @@ archetype (adl_version=2.0.4; rm_release=1.0.2)
 
 language
     original_language = <[ISO_639-1::pt-br]>
+    translations = <
+        ["pt-br"] = <
+            author = <
+                ["organization"] = <"Grupo iHealth">
+                ["name"] = <"Grupo iHealth">
+                ["email"] = <"contato@ihealthgroup.com.br">
+            >
+        >
+    >
 
 description
     lifecycle_state = <"unmanaged">
@@ -10,125 +19,124 @@ description
     details = <
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
-            purpose = <"">
         >
     >
 
 definition
-    OBSERVATION[id1] occurrences matches {1} matches {    -- comorbidade_referida
+    OBSERVATION[id1] occurrences matches {1} matches {    -- *comorbidade_referida (pt-br)
         data matches {
             HISTORY[id2] matches {
                 events matches {
-                    EVENT[id3] matches {    -- Any event
+                    EVENT[id3] matches {    -- *Any event (pt-br)
                         data matches {
                             ITEM_TREE[id4] matches {
                                 items matches {
-                                    ELEMENT[id7] occurrences matches {1} matches {    -- Bronquite ou asma
+                                    ELEMENT[id7] occurrences matches {1} matches {    -- *Bronquite ou asma (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id8] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id9] occurrences matches {1} matches {    -- Enfisema pulmonar
+                                    ELEMENT[id9] occurrences matches {1} matches {    -- *Enfisema pulmonar (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id10] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id11] occurrences matches {1} matches {    -- Angina
+                                    ELEMENT[id11] occurrences matches {1} matches {    -- *Angina (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id12] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id13] occurrences matches {1} matches {    -- Infarto
+                                    ELEMENT[id13] occurrences matches {1} matches {    -- *Infarto (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id14] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id15] occurrences matches {1} matches {    -- Acidente vascular cerebral ou derrame
+                                    ELEMENT[id15] occurrences matches {1} matches {    -- *Acidente vascular cerebral ou derrame (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id16] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id17] occurrences matches {1} matches {    -- Colesterol alterado
+                                    ELEMENT[id17] occurrences matches {1} matches {    -- *Colesterol alterado (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id18] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id19] occurrences matches {1} matches {    -- Problemas auditivos
+                                    ELEMENT[id19] occurrences matches {1} matches {    -- *Problemas auditivos (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id20] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id21] occurrences matches {1} matches {    -- Depressão
+                                    ELEMENT[id21] occurrences matches {1} matches {    -- *Depressão (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id22] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id23] occurrences matches {1} matches {    -- Insuficiência cardíaca
+                                    ELEMENT[id23] occurrences matches {1} matches {    -- *Insuficiência cardíaca (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id24] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id25] occurrences matches {1} matches {    -- Outra doença do coração
+                                    ELEMENT[id25] occurrences matches {1} matches {    -- *Outra doença do coração (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id26] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id27] occurrences matches {1} matches {    -- Doença renal crônica
+                                    ELEMENT[id27] occurrences matches {1} matches {    -- *Doença renal crônica (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id28] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id29] occurrences matches {1} matches {    -- Câncer
+                                    ELEMENT[id29] occurrences matches {1} matches {    -- *Câncer (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id30] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id31] occurrences matches {1} matches {    -- Cirrose
+                                    ELEMENT[id31] occurrences matches {1} matches {    -- *Cirrose (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id32] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id33] occurrences matches {1} matches {    -- Problema de coluna/costas
+                                    ELEMENT[id33] occurrences matches {1} matches {    -- *Problema de coluna/costas (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id34] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id35] occurrences matches {1} matches {    -- Tendinite ou LER/DORT
+                                    ELEMENT[id35] occurrences matches {1} matches {    -- *Tendinite ou LER/DORT (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id36] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id37] occurrences matches {1} matches {    -- Artrite, reumatismo ou gota
+                                    ELEMENT[id37] occurrences matches {1} matches {    -- *Artrite, reumatismo ou gota (pt-br)
                                         value matches {
                                             DV_BOOLEAN[id38] matches {
                                                 value matches {True, False}
@@ -151,76 +159,76 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"comorbidade_referida">
-                description = <"comorbidade_referida">
+                text = <"*comorbidade_referida (pt-br)">
+                description = <"*comorbidade_referida (pt-br)">
             >
             ["id3"] = <
-                text = <"Any event">
-                description = <"Any event">
+                text = <"*Any event (pt-br)">
+                description = <"*Any event (pt-br)">
             >
             ["id7"] = <
-                text = <"Bronquite ou asma">
-                description = <"Bronquite ou asma">
+                text = <"*Bronquite ou asma (pt-br)">
+                description = <"*Bronquite ou asma (pt-br)">
             >
             ["id9"] = <
-                text = <"Enfisema pulmonar">
-                description = <"Enfisema pulmonar">
+                text = <"*Enfisema pulmonar (pt-br)">
+                description = <"*Enfisema pulmonar (pt-br)">
             >
             ["id11"] = <
-                text = <"Angina">
-                description = <"Angina">
+                text = <"*Angina (pt-br)">
+                description = <"*Angina (pt-br)">
             >
             ["id13"] = <
-                text = <"Infarto">
-                description = <"Infarto">
+                text = <"*Infarto (pt-br)">
+                description = <"*Infarto (pt-br)">
             >
             ["id15"] = <
-                text = <"Acidente vascular cerebral ou derrame">
-                description = <"Acidente vascular cerebral ou derrame">
+                text = <"*Acidente vascular cerebral ou derrame (pt-br)">
+                description = <"*Acidente vascular cerebral ou derrame (pt-br)">
             >
             ["id17"] = <
-                text = <"Colesterol alterado">
-                description = <"Colesterol alterado">
+                text = <"*Colesterol alterado (pt-br)">
+                description = <"*Colesterol alterado (pt-br)">
             >
             ["id19"] = <
-                text = <"Problemas auditivos">
-                description = <"Problemas auditivos">
+                text = <"*Problemas auditivos (pt-br)">
+                description = <"*Problemas auditivos (pt-br)">
             >
             ["id21"] = <
-                text = <"Depressão">
-                description = <"Depressão">
+                text = <"*Depressão (pt-br)">
+                description = <"*Depressão (pt-br)">
             >
             ["id23"] = <
-                text = <"Insuficiência cardíaca">
-                description = <"Insuficiência cardíaca">
+                text = <"*Insuficiência cardíaca (pt-br)">
+                description = <"*Insuficiência cardíaca (pt-br)">
             >
             ["id25"] = <
-                text = <"Outra doença do coração">
-                description = <"Outra doença do coração">
+                text = <"*Outra doença do coração (pt-br)">
+                description = <"*Outra doença do coração (pt-br)">
             >
             ["id27"] = <
-                text = <"Doença renal crônica">
-                description = <"Doença renal crônica">
+                text = <"*Doença renal crônica (pt-br)">
+                description = <"*Doença renal crônica (pt-br)">
             >
             ["id29"] = <
-                text = <"Câncer">
-                description = <"Câncer">
+                text = <"*Câncer (pt-br)">
+                description = <"*Câncer (pt-br)">
             >
             ["id31"] = <
-                text = <"Cirrose">
-                description = <"Cirrose">
+                text = <"*Cirrose (pt-br)">
+                description = <"*Cirrose (pt-br)">
             >
             ["id33"] = <
-                text = <"Problema de coluna/costas">
-                description = <"Problema de coluna/costas">
+                text = <"*Problema de coluna/costas (pt-br)">
+                description = <"*Problema de coluna/costas (pt-br)">
             >
             ["id35"] = <
-                text = <"Tendinite ou LER/DORT">
-                description = <"Tendinite ou LER/DORT">
+                text = <"*Tendinite ou LER/DORT (pt-br)">
+                description = <"*Tendinite ou LER/DORT (pt-br)">
             >
             ["id37"] = <
-                text = <"Artrite, reumatismo ou gota">
-                description = <"Artrite, reumatismo ou gota">
+                text = <"*Artrite, reumatismo ou gota (pt-br)">
+                description = <"*Artrite, reumatismo ou gota (pt-br)">
             >
         >
     >
