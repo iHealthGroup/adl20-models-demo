@@ -3,6 +3,15 @@ archetype (adl_version=2.0.4; rm_release=1.0.2)
 
 language
     original_language = <[ISO_639-1::pt-br]>
+    translations = <
+        ["en"] = <
+            author = <
+                ["organization"] = <"Grupo iHealth">
+                ["name"] = <"Grupo iHealth">
+                ["email"] = <"contato@ihealthgroup.com.br">
+            >
+        >
+    >
 
 description
     lifecycle_state = <"unmanaged">
@@ -11,6 +20,9 @@ description
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
             purpose = <"">
+        >
+        ["en"] = <
+            language = <[ISO_639-1::en]>
         >
     >
 
@@ -42,6 +54,16 @@ terminology
             ["id3"] = <
                 text = <"Any event">
                 description = <"Any event">
+            >
+        >
+        ["en"] = <
+            ["id1"] = <
+                text = <"*morbidade referida (pt-br)">
+                description = <"*morbidade referida (pt-br)">
+            >
+            ["id3"] = <
+                text = <"*Any event (pt-br)">
+                description = <"*Any event (pt-br)">
             >
         >
     >
