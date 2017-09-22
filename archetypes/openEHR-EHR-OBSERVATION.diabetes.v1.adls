@@ -28,29 +28,29 @@ description
     >
 
 definition
-    OBSERVATION[id1] occurrences matches {1} matches {    -- *diabetes (pt-br)
+    OBSERVATION[id1] occurrences matches {1} matches {    -- Diabetes
         data matches {
             HISTORY[id2] matches {
                 events matches {
-                    EVENT[id3] matches {    -- *Any event (pt-br)
+                    EVENT[id3] matches {    -- Qualquer evento
                         data matches {
                             ITEM_TREE[id4] matches {
                                 items matches {
-                                    ELEMENT[id6] occurrences matches {1} matches {    -- *Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)
+                                    ELEMENT[id6] occurrences matches {1} matches {    -- Algum médico já disse que o trabalhador tem ou teve diabetes?
                                         value matches {
                                             DV_BOOLEAN[id7] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id8] occurrences matches {0..1} matches {    -- *O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)
+                                    ELEMENT[id8] occurrences matches {0..1} matches {    -- O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes?
                                         value matches {
                                             DV_BOOLEAN[id9] matches {
                                                 value matches {True, False}
                                             }
                                         }
                                     }
-                                    ELEMENT[id10] occurrences matches {0..1} matches {    -- *O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)
+                                    ELEMENT[id10] occurrences matches {0..1} matches {    -- O trabalhador usa atualmente algum medicamento para tratar de diabetes?
                                         value matches {
                                             DV_BOOLEAN[id11] matches {
                                                 value matches {True, False}
@@ -73,24 +73,24 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"*diabetes (pt-br)">
-                description = <"*diabetes (pt-br)">
+                text = <"Diabetes">
+                description = <"Diabetes">
             >
             ["id3"] = <
-                text = <"*Any event (pt-br)">
-                description = <"*Any event (pt-br)">
+                text = <"Qualquer evento">
+                description = <"Qualquer evento">
             >
             ["id6"] = <
-                text = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
-                description = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
+                text = <"Algum médico já disse que o trabalhador tem ou teve diabetes?">
+                description = <"Algum médico já disse que o trabalhador tem ou teve diabetes?">
             >
             ["id8"] = <
-                text = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
-                description = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
+                text = <"O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes?">
+                description = <"O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes?">
             >
             ["id10"] = <
-                text = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
-                description = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
+                text = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
+                description = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
             >
         >
     >
