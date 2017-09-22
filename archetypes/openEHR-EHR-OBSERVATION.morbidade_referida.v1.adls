@@ -3,15 +3,6 @@ archetype (adl_version=2.0.4; rm_release=1.0.2)
 
 language
     original_language = <[ISO_639-1::pt-br]>
-    translations = <
-        ["pt-br"] = <
-            author = <
-                ["organization"] = <"Grupo iHealth">
-                ["name"] = <"Grupo iHealth">
-                ["email"] = <"contato@ihealthgroup.com.br">
-            >
-        >
-    >
 
 description
     lifecycle_state = <"unmanaged">
@@ -19,15 +10,16 @@ description
     details = <
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
+            purpose = <"">
         >
     >
 
 definition
-    OBSERVATION[id1] occurrences matches {1} matches {    -- Morbidade referida
+    OBSERVATION[id1] occurrences matches {1} matches {    -- morbidade referida
         data matches {
             HISTORY[id2] matches {
                 events matches {
-                    EVENT[id3] matches {    -- Qualquer evento
+                    EVENT[id3] matches {    -- Any event
                         data matches {
                             ITEM_TREE[id4] 
                         }
@@ -44,12 +36,12 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"Morbidade referida">
-                description = <"Morbidade referida">
+                text = <"morbidade referida">
+                description = <"morbidade referida">
             >
             ["id3"] = <
-                text = <"Qualquer evento">
-                description = <"Qualquer evento">
+                text = <"Any event">
+                description = <"Any event">
             >
         >
     >
