@@ -11,6 +11,7 @@ language
                 ["email"] = <"contato@ihealthgroup.com.br">
             >
         >
+        ["en"] = <>
     >
 
 description
@@ -24,6 +25,11 @@ description
     details = <
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
+        >
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"*Diabetes (pt-br)">
+            use = <"*Diabetes (pt-br)">
         >
     >
 
@@ -91,6 +97,28 @@ terminology
             ["id10"] = <
                 text = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
                 description = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
+            >
+        >
+        ["en"] = <
+            ["id1"] = <
+                text = <"*Diabetes (pt-br)">
+                description = <"*Diabetes (pt-br)">
+            >
+            ["id3"] = <
+                text = <"*Qualquer evento (pt-br)">
+                description = <"*Qualquer evento (pt-br)">
+            >
+            ["id6"] = <
+                text = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
+                description = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
+            >
+            ["id8"] = <
+                text = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
+                description = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
+            >
+            ["id10"] = <
+                text = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
+                description = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
             >
         >
     >
