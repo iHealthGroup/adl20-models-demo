@@ -34,6 +34,9 @@ description
         >
         ["en"] = <
             language = <[ISO_639-1::en]>
+            purpose = <"Morbidade referida">
+            use = <"Morbidade referida">
+            misuse = <"">
         >
     >
 
