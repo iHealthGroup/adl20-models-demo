@@ -37,11 +37,11 @@ description
     >
 
 definition
-    OBSERVATION[id1] occurrences matches {1} matches {    -- morbidade referida
+    OBSERVATION[id1] occurrences matches {1} matches {    -- Morbidade referida
         data matches {
             HISTORY[id2] matches {
                 events matches {
-                    EVENT[id3] matches {    -- Any event
+                    EVENT[id3] matches {    -- Qualquer evento
                         data matches {
                             ITEM_TREE[id4] 
                         }
@@ -58,22 +58,22 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"morbidade referida">
-                description = <"morbidade referida">
+                text = <"Morbidade referida">
+                description = <"Morbidade referida">
             >
             ["id3"] = <
-                text = <"Any event">
-                description = <"Any event">
+                text = <"Qualquer evento">
+                description = <"Qualquer evento">
             >
         >
         ["en"] = <
             ["id1"] = <
-                text = <"*morbidade referida (pt-br)">
-                description = <"*morbidade referida (pt-br)">
+                text = <"Morbidade referida">
+                description = <"Morbidade referida">
             >
             ["id3"] = <
-                text = <"*Any event (pt-br)">
-                description = <"*Any event (pt-br)">
+                text = <"Any event">
+                description = <"Any event">
             >
         >
     >
