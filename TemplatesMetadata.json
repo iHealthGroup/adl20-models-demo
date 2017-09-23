@@ -1,0 +1,15 @@
+{
+  "templates" : [ {
+    "id" : null,
+    "rmType" : null,
+    "name" : null,
+    "path" : "templates/openEHR-EHR-COMPOSITION.teste_pqp.v1.adlt",
+    "sha" : "e5bfd8cd511ec4161f6e0dd037a9dd93ebd41e15"
+  }, {
+    "id" : null,
+    "rmType" : null,
+    "name" : null,
+    "path" : "templates/openEHR-EHR-COMPOSITION.teste_teste_teste_teste.v1.adlt",
+    "sha" : "b8b529d4e0731d8764113cf33cb63afede6eb53b"
+  } ]
+}
