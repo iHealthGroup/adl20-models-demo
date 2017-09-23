@@ -1,0 +1,102 @@
+template (adl_version=2.0.5; rm_release=1.0.2)
+    openEHR-EHR-COMPOSITION.teste_teste_teste_teste.v1.0.0
+
+specialize
+    openEHR-EHR-COMPOSITION.summary.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["pt-br"] = <
+            author = <
+                ["name"] = <"Grupo iHealth">
+            >
+        >
+        ["sl"] = <
+            author = <
+                ["name"] = <"?">
+            >
+        >
+    >
+
+description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"09/03/2011">
+        ["name"] = <"Dr Ian McNicoll">
+        ["organisation"] = <"Ocean Informatics, United Kingdom">
+        ["email"] = <"ian.mcnicoll@oceaninformatics.com">
+    >
+    copyright = <"">
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"To record a persistent record of some aspect of the health status of the patient e.g Vaccination status, Allergies
+">
+            use = <"">
+            misuse = <"">
+        >
+        ["sl"] = <
+            language = <[ISO_639-1::sl]>
+            purpose = <"*To record a persistent record of some aspect of the health status of the patient e.g Vaccination status, Allergies
+(en)">
+            use = <"*(en)">
+            misuse = <"*(en)">
+        >
+        ["pt-br"] = <
+            language = <[ISO_639-1::pt-br]>
+            purpose = <"*To record a persistent record of some aspect of the health status of the patient e.g Vaccination status, Allergies
+ (en)">
+        >
+    >
+
+definition
+    COMPOSITION[id1.1] matches {    -- Patient summary
+        content
+    }
+
+terminology
+    term_definitions = <
+        ["pt-br"] = <
+            ["id1"] = <
+                text = <"*Patient summary (en)">
+                description = <"*A snapshot summary of the vaccination record. (en)">
+            >
+            ["at1"] = <
+                text = <"*persistent (en)">
+                description = <"*persistent (en)">
+            >
+            ["id1.1"] = <
+                text = <"*Patient summary (en)">
+                description = <"*A snapshot summary of the vaccination record. (en)">
+            >
+        >
+        ["en"] = <
+            ["id1"] = <
+                text = <"Patient summary">
+                description = <"A snapshot summary of the vaccination record.">
+            >
+            ["at1"] = <
+                text = <"persistent">
+                description = <"persistent">
+            >
+            ["id1.1"] = <
+                text = <"Patient summary">
+                description = <"A snapshot summary of the vaccination record.">
+            >
+        >
+        ["sl"] = <
+            ["id1"] = <
+                text = <"*Patient summary(en)">
+                description = <"*A snapshot summary of the vaccination record.(en)">
+            >
+            ["at1"] = <
+                text = <"*persistent (en)">
+                description = <"*persistent (en)">
+            >
+            ["id1.1"] = <
+                text = <"*Patient summary(en)">
+                description = <"*A snapshot summary of the vaccination record.(en)">
+            >
+        >
+    >
