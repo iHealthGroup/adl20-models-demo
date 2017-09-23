@@ -3,42 +3,23 @@ archetype (adl_version=2.0.4; rm_release=1.0.2)
 
 language
     original_language = <[ISO_639-1::pt-br]>
-    translations = <
-        ["pt-br"] = <
-            author = <
-                ["organization"] = <"Grupo iHealth">
-                ["name"] = <"Grupo iHealth">
-                ["email"] = <"contato@ihealthgroup.com.br">
-            >
-        >
-        ["en"] = <>
-    >
 
 description
     lifecycle_state = <"unmanaged">
-    original_author = <
-        ["organization"] = <"Grupo iHealth">
-        ["name"] = <"Grupo iHealth">
-        ["email"] = <"contato@ihealthgroup.com.br">
-    >
     copyright = <"">
     details = <
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
-        >
-        ["en"] = <
-            language = <[ISO_639-1::en]>
-            purpose = <"*Diabetes (pt-br)">
-            use = <"*Diabetes (pt-br)">
+            purpose = <"">
         >
     >
 
 definition
-    OBSERVATION[id1] occurrences matches {1} matches {    -- Diabetes
+    OBSERVATION[id1] occurrences matches {1} matches {    -- diabetes
         data matches {
             HISTORY[id2] matches {
                 events matches {
-                    EVENT[id3] matches {    -- Qualquer evento
+                    EVENT[id3] matches {    -- Any event
                         data matches {
                             ITEM_TREE[id4] matches {
                                 items matches {
@@ -79,12 +60,12 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"Diabetes">
-                description = <"Diabetes">
+                text = <"diabetes">
+                description = <"diabetes">
             >
             ["id3"] = <
-                text = <"Qualquer evento">
-                description = <"Qualquer evento">
+                text = <"Any event">
+                description = <"Any event">
             >
             ["id6"] = <
                 text = <"Algum médico já disse que o trabalhador tem ou teve diabetes?">
@@ -97,28 +78,6 @@ terminology
             ["id10"] = <
                 text = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
                 description = <"O trabalhador usa atualmente algum medicamento para tratar de diabetes?">
-            >
-        >
-        ["en"] = <
-            ["id1"] = <
-                text = <"*Diabetes (pt-br)">
-                description = <"*Diabetes (pt-br)">
-            >
-            ["id3"] = <
-                text = <"*Qualquer evento (pt-br)">
-                description = <"*Qualquer evento (pt-br)">
-            >
-            ["id6"] = <
-                text = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
-                description = <"*Algum médico já disse que o trabalhador tem ou teve diabetes? (pt-br)">
-            >
-            ["id8"] = <
-                text = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
-                description = <"*O trabalhador já usou em qualquer época da vida algum medicamento para tratar diabetes? (pt-br)">
-            >
-            ["id10"] = <
-                text = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
-                description = <"*O trabalhador usa atualmente algum medicamento para tratar de diabetes? (pt-br)">
             >
         >
     >
