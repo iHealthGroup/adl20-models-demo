@@ -71,12 +71,12 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"*Encounter (en)">
-                description = <"*Generic encounter or progress note composition (en)">
+                text = <"Encontro">
+                description = <"Composição genérica de reunião ou nota de progresso">
             >
             ["id3"] = <
-                text = <"*Context detail (en)">
-                description = <"*Local context detail. (en)">
+                text = <"Contexto detalhado">
+                description = <"Detalhes do contexto local.">
             >
             ["at1"] = <
                 text = <"*event (en)">
