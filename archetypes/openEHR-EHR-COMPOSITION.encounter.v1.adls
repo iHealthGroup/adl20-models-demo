@@ -4,18 +4,15 @@ archetype (adl_version=2.0.5; rm_release=1.0.2)
 language
     original_language = <[ISO_639-1::en]>
     translations = <
-        ["pt-br"] = <
-            language = <[ISO_639-1::pt-br]>
-            accreditation = <"">
-        >
+        ["pt-br"] = <>
     >
 
 description
     lifecycle_state = <"unmanaged">
     original_author = <
+        ["date"] = <"2005-10-10">
         ["name"] = <"Thomas Beale">
         ["organisation"] = <"Ocean Informatics">
-        ["date"] = <"2005-10-10">
     >
     copyright = <"© openEHR">
     details = <
@@ -53,16 +50,6 @@ definition
 
 terminology
     term_definitions = <
-        ["en"] = <
-            ["id1"] = <
-                text = <"Encounter">
-                description = <"Generic encounter or progress note composition.">
-            >
-            ["at1"] = <
-                text = <"event">
-                description = <"event">
-            >
-        >
         ["pt-br"] = <
             ["id1"] = <
                 text = <"Encontro">
@@ -71,6 +58,16 @@ terminology
             ["at1"] = <
                 text = <"evento">
                 description = <"evento">
+            >
+        >
+        ["en"] = <
+            ["id1"] = <
+                text = <"Encounter">
+                description = <"Generic encounter or progress note composition.">
+            >
+            ["at1"] = <
+                text = <"event">
+                description = <"event">
             >
         >
     >
