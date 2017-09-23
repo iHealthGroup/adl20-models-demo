@@ -37,7 +37,9 @@ description
 
 definition
     COMPOSITION[id1.1] matches {    -- Encounter
-        content
+        content matches {
+            use_archetype OBSERVATION[id0.2, openEHR-EHR-OBSERVATION.ovl-teste_pqp-diabetes-001.v1.0.0]
+        }
     }
 
 terminology
@@ -52,6 +54,26 @@ terminology
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition.">
+            >
+        >
+    >
+
+------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-OBSERVATION.ovl-teste_pqp-diabetes-001.v1.0.0
+
+specialize
+    openEHR-EHR-OBSERVATION.diabetes.v1.0.0
+
+definition
+    OBSERVATION[id1.1] 
+
+terminology
+    term_definitions = <
+        ["pt-br"] = <
+            ["id1.1"] = <
+                text = <"diabetes">
+                description = <"diabetes">
             >
         >
     >
