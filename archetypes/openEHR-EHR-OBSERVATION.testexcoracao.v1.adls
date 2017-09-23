@@ -3,6 +3,9 @@ archetype (adl_version=2.0.4; rm_release=1.0.2)
 
 language
     original_language = <[ISO_639-1::en]>
+    translations = <
+        ["pt"] = <>
+    >
 
 description
     lifecycle_state = <"unmanaged">
@@ -11,6 +14,9 @@ description
         ["en"] = <
             language = <[ISO_639-1::en]>
             purpose = <"">
+        >
+        ["pt"] = <
+            language = <[ISO_639-1::pt]>
         >
     >
 
@@ -38,6 +44,20 @@ definition
 
 terminology
     term_definitions = <
+        ["pt"] = <
+            ["id1"] = <
+                text = <"*testexcoracao (en)">
+                description = <"*testexcoracao (en)">
+            >
+            ["id3"] = <
+                text = <"*Any event (en)">
+                description = <"*Any event (en)">
+            >
+            ["id6"] = <
+                text = <"*Teste teste teste teste teste (en)">
+                description = <"*Teste teste teste teste teste (en)">
+            >
+        >
         ["en"] = <
             ["id1"] = <
                 text = <"testexcoracao">
