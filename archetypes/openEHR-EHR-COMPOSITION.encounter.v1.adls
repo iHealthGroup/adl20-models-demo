@@ -79,8 +79,8 @@ terminology
                 description = <"Detalhes do contexto local.">
             >
             ["at1"] = <
-                text = <"*event (en)">
-                description = <"*event (en)">
+                text = <"Evento">
+                description = <"Evento">
             >
         >
         ["en"] = <
