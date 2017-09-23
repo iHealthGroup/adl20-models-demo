@@ -4,64 +4,48 @@ archetype (adl_version=2.0.5; rm_release=1.0.2)
 language
     original_language = <[ISO_639-1::en]>
     translations = <
-        ["pt-br"] = <>
-        ["sl"] = <
-            author = <
-                ["name"] = <"?">
-            >
+        ["pt-br"] = <
+            language = <[ISO_639-1::pt-br]>
+            accreditation = <"">
         >
     >
 
 description
     lifecycle_state = <"unmanaged">
     original_author = <
-        ["date"] = <"2005-10-10">
         ["name"] = <"Thomas Beale">
         ["organisation"] = <"Ocean Informatics">
+        ["date"] = <"2005-10-10">
     >
-    copyright = <"copyright (c) 2010 openEHR Foundation">
+    copyright = <"© openEHR">
     details = <
         ["en"] = <
             language = <[ISO_639-1::en]>
-            purpose = <"Registro de encontro como nota de progresso.">
-            use = <"">
-            misuse = <"">
-            keywords = <"progress", "note", "encounter">
-        >
-        ["sl"] = <
-            language = <[ISO_639-1::sl]>
             purpose = <"Record of encounter as a progress note.">
-            use = <"">
+            use = <"For use to record when a person and clinician interact.">
             misuse = <"">
             keywords = <"progress", "note", "encounter">
         >
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
             purpose = <"Registro de encontro como nota de progresso.">
-            use = <"">
+            use = <"Usado para gravar uma interação entre uma pessoa e um clínico.">
             misuse = <"">
-            keywords = <"progresso", "nota", "encontro">
+            keywords = <"Progresso", "nota", "encontro">
         >
     >
 
 definition
     COMPOSITION[id1] matches {    -- Encounter
         category matches {
-            DV_CODED_TEXT[id4] matches {
+            DV_CODED_TEXT[id3] matches {
                 defining_code matches {[at1]}
             }
         }
         context matches {
-            EVENT_CONTEXT[id5] matches {
+            EVENT_CONTEXT[id4] matches {
                 other_context matches {
-                    ITEM_TREE[id2] matches {
-                        items matches {
-                            allow_archetype CLUSTER[id3] matches {     -- Context detail
-                                include
-                                    archetype_id/value matches {/.*/}
-                            }
-                        }
-                    }
+                    ITEM_TREE[id2] 
                 }
             }
         }
@@ -69,46 +53,24 @@ definition
 
 terminology
     term_definitions = <
-        ["pt-br"] = <
-            ["id1"] = <
-                text = <"Encontro">
-                description = <"Composição genérica de reunião ou nota de progresso">
-            >
-            ["id3"] = <
-                text = <"Contexto detalhado">
-                description = <"Detalhes do contexto local.">
-            >
-            ["at1"] = <
-                text = <"Evento">
-                description = <"Evento">
-            >
-        >
         ["en"] = <
             ["id1"] = <
                 text = <"Encounter">
-                description = <"Generic encounter or progress note composition">
-            >
-            ["id3"] = <
-                text = <"Context detail">
-                description = <"Local context detail.">
+                description = <"Generic encounter or progress note composition.">
             >
             ["at1"] = <
                 text = <"event">
                 description = <"event">
             >
         >
-        ["sl"] = <
+        ["pt-br"] = <
             ["id1"] = <
-                text = <"Encounter">
-                description = <"Generic encounter or progress note composition">
-            >
-            ["id3"] = <
-                text = <"Context detail">
-                description = <"Local context detail">
+                text = <"Encontro">
+                description = <"Encontro genérico ou  composição da nota de progresso.">
             >
             ["at1"] = <
-                text = <"*event (en)">
-                description = <"*event (en)">
+                text = <"evento">
+                description = <"evento">
             >
         >
     >
