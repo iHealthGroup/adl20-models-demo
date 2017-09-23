@@ -95,8 +95,8 @@
     "rmType" : "COMPOSITION",
     "name" : "Encounter",
     "path" : "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adls",
-    "sha" : "2ab4fea4190ae17ab4a85c41fe69ce49e435e1e0",
-    "languages" : [ "en", "sl" ]
+    "sha" : "bb16ff75237692454aa22ae1cb1bf68c4a161a31",
+    "languages" : [ "en", "pt-br" ]
   }, {
     "id" : "openEHR-EHR-COMPOSITION.report.v1.0.0",
     "rmType" : "COMPOSITION",
@@ -230,5 +230,39 @@
     "path" : "archetypes/openEHR-EHR-SECTION.medication.v1.adls",
     "sha" : "d379bcf36aa1293b122d305a3daa87b3647ada0f",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.comorbidade_referida.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Comorbidade referida",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.comorbidade_referida.v1.adls",
+    "sha" : "66a52ff0c2d4614cb6fcc84a7ec84289a989ad05",
+    "languages" : [ "pt-br" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.diabetes.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "diabetes",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.diabetes.v1.adls",
+    "sha" : "840240c26192dff20ec9df4c7c7a0ff2a21b7cad",
+    "languages" : [ "pt-br" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.hipertensao.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "hipertensao",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.hipertensao.v1.adls",
+    "sha" : "c9d30668feeab3f9aab2a51af4bb3011a0e0b26d",
+    "languages" : [ "pt-br" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.morbidade_referida.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "morbidade referida",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.morbidade_referida.v1.adls",
+    "sha" : "ab78d12c57a1b83a5af56bb5979de450ef7b22f4",
+    "languages" : [ "pt-br" ]
+  }, {
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.teste_teste_teste.v1.adls",
+    "sha" : "e1fce706bd86ea9c82de2d586e0527089df3eaba"
+  }, {
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.testexcoracao.v1.adls",
+    "sha" : "d962b000f65d36f9c6ccd8b61a933318dfb7f9eb"
   } ]
 }
