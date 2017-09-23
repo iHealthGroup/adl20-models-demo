@@ -23,7 +23,7 @@ description
     details = <
         ["en"] = <
             language = <[ISO_639-1::en]>
-            purpose = <"Record of encounter as a progress note.">
+            purpose = <"Registro de encontro como nota de progresso.">
             use = <"">
             misuse = <"">
             keywords = <"progress", "note", "encounter">
@@ -37,8 +37,10 @@ description
         >
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
-            purpose = <"*Record of encounter as a progress note. (en)">
-            keywords = <"progress", "note", "encounter">
+            purpose = <"Registro de encontro como nota de progresso.">
+            use = <"">
+            misuse = <"">
+            keywords = <"progresso", "nota", "encontro">
         >
     >
 
