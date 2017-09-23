@@ -46,16 +46,16 @@ terminology
     term_definitions = <
         ["pt-br"] = <
             ["id1"] = <
-                text = <"*teste_teste_teste (en)">
-                description = <"*teste_teste_teste (en)">
+                text = <"teste_teste_teste">
+                description = <"teste_teste_teste">
             >
             ["id3"] = <
-                text = <"*Any event (en)">
-                description = <"*Any event (en)">
+                text = <"Any event">
+                description = <"Any event">
             >
             ["id6"] = <
-                text = <"*Teste teste teste teste (en)">
-                description = <"*Teste teste teste teste (en)">
+                text = <"Teste teste teste teste">
+                description = <"Teste teste teste teste">
             >
         >
         ["en"] = <
