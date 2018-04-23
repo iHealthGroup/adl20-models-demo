@@ -11,8 +11,8 @@
     "rmType" : "ACTION",
     "name" : "Medication action",
     "path" : "archetypes/openEHR-EHR-ACTION.medication.v1.adls",
-    "sha" : "4b640e8fc518c2a534cd779e4af4aa8a43760885",
-    "languages" : [ "en", "ar-sy", "es-ar", "ru", "sl" ]
+    "sha" : "46aa70183bbb84a6f7cfa5d30102b4f6d3eee8ac",
+    "languages" : [ "en", "ar-sy", "es-ar", "ru", "sl", "pt-br" ]
   }, {
     "id" : "openEHR-EHR-CLUSTER.anatomical_location.v1.0.0",
     "rmType" : "CLUSTER",
